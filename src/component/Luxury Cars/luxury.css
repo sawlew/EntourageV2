@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../assets/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.luxury-card{
+    width: 400px;
+    height: 240px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    border-radius: 10px;
+    background-color: #d0d5dd59;
+    transition: background-color 0.3s ease;
+}
+
+.luxury-title-container{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.luxury-title{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.luxury-price{
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.luxury-price span{
+    font-size: 8px;
+}
+
+.line-arrow{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #000;
+}
+.line-icon{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    stroke: none;
+}
+.car-image{
+    width: 80%;
+}
+
+.luxury-card:hover{
+    background-color: #3F3D37;
+}
+
+.luxury-card:hover .luxury-title-container {
+    color: #FFFFFF;
+}
+
+.luxury-card:hover svg {
+    stroke: #FFFFFF;
+}
+
+.luxury-slider .slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.luxury-slider .slick-track {
+    display: flex !important;
+}
+
+.luxury-slider .slick-slide {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-slide:first-child {
+    margin-left: 0;
+}
+
+.slick-slide:last-child {
+    margin-right: 0;
+}
+
+
+.control-panel{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.be-a-partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 10px;
+    border-radius: 7px;
+    background-color: #f6f6f6;
+    font-family: 'FontSpring', sans-serif;
+    color: #FFF;
+    background-color: #5852A2;
+    cursor: pointer;
+}
+.be-a-partner img{
+    width: 20px;
+    height: 20px;
+}
+
+.slider-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5852A2;
+    border: 2px solid #5852A2;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+}
+
+
+.slider-button:hover {
+    opacity: 0.8;
+  }
+  
+.slider-button:disabled {
+    background-color: #FFFFFF;
+    color: #5852A2;
+    cursor: not-allowed;
+}
+
+.slider-button:disabled .custom-icon path{
+    stroke: #5852A2;
+}

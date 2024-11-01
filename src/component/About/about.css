@@ -1,0 +1,99 @@
+.about-main-container {
+  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 40px;
+}
+.about-sub-container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 0 1rem;
+  /* border: 5px solid yellow; */
+}
+.about-title h4, .about-sub-title h4 {
+  /* font-family: "Inknut Antiqua"; */
+  font-weight: 600;
+  font-size: 36px;
+  /* line-height: 92.84px; */
+  color: #000000;
+  text-align: center;
+}
+.about-sub-title h4{
+  font-family: "Inknut Antiqua";
+  text-align: left;
+}
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  /* border: 5px solid purple; */
+}
+.about-left {
+  /* flex: 1; */
+  width: 45%;
+  /* border: 5px solid red; */
+}
+.about-left p {
+  /* width: 548px; */
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #575757;
+}
+.about-right {
+  width: 55%;
+  /* border: 5px solid blue; */
+}
+.about-right img{
+  width: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 991px){
+  .about-title h4, .about-sub-title h4{
+    font-size: 38px;
+  }
+  .about-left p {
+    width: 380px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    color: #575757;
+  }
+  .about-right{
+    width: 40%;
+  }
+  .about-left{
+    width: 60%;
+  }
+  .about-left p{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px){
+  .about-sub-container{
+    width: 100%;
+  }
+  .about-flex {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .about-right{
+    width: 90%;
+  }
+  .about-left{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-left p{
+    width: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+  .about-sub-title h4{
+    text-align: center;
+  }
+}

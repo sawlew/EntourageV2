@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'FontSpring';
+    src: url('../../assets/fontspring-demo-16.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fleet{
+    border: 2px solid #EFF5FD;
+    background-color: #EFF5FD;
+}
+
+.fleet-container{
+    width: 90%;
+    /* border: 2px solid green; */
+    margin: 80px auto;
+}
+.fleet-container h1{
+    color: #824C9D;
+    font-family: "FontSpring", sans-serif;
+    margin-bottom: 40px;
+}
+  
+.MuiTab-root {
+    color: #141333 !important;
+    min-height: 0 !important;
+    height: 35px !important;
+    padding: 10px !important;
+    font-family: 'FontSpring', sans-serif !important;
+    font-size: 16px !important;
+    border: 2px solid #141333 !important;
+    border-radius: 10px !important;
+}
+
+.MuiTab-root.Mui-selected {
+    color: #fff !important;
+    background-color: #141333;
+    font-family: 'FontSpring', sans-serif;
+}
+
+.middle-tab{
+    margin: 0 20px !important;
+}
+
+.tab-content {
+    margin-top: 40px;
+}
+
+
+
+

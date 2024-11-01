@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'FontSpring';
+  src: url('../../assets/fontspring-demo-16.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  width: 100%;
+  /* height: 10vh; */
+  /* background-color: yellow; */
+  /* background-color: red; */
+  color: #ffff;
+  z-index: 10;
+  position: absolute;
+  margin: 20px auto;
+}
+.header-content {
+  /* max-width: 1400px; */
+  background-color: #D0D5DD;
+  margin: 0 auto;
+  width: 90%;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 5px solid yellow; */
+  border-radius: 15px;
+}
+.header-nav-links ul {
+  display: flex;
+  align-items: center;
+  /* margin-top: 3rem; */
+  gap: 3rem;
+  font-size: 14px;
+}
+.header-nav-links li a {
+  color: #ffffff;
+}
+.menu-bar{
+   display: none;
+}
+.close {
+  font-size: 35px;
+  cursor: pointer;
+}
+.bars {
+  font-size: 40px;
+  cursor: pointer;
+  color: #824C9D;
+}
+.logo {
+  width: 200px;
+}
+.hnav {
+  /* border: 2px solid red; */
+  width: 33.3%;
+}
+.hnav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hnav3{
+  text-align: end;
+}
+.getTheApp {
+  background-color: #5852A2;
+  padding: 12px 8px;
+  font-family: 'FontSpring', sans-serif;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header-nav-links, .login-register{
+    display: none;
+  }
+  .menu-bar{
+    display: block;
+ }
+}
+@media screen and (max-width: 640px) {
+  .login-register p {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
