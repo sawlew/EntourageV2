@@ -54,7 +54,7 @@ function App() {
       {/* <Services /> */}
       {/* <Testimonials /> */}
       {/* <DownloadApp displayModal={showModal} /> */}
-      {/* <Footer /> */}
+      <Footer />
       {/* {modal ? <Modal displayModal={showModal} /> : null} */}
     </>
   );

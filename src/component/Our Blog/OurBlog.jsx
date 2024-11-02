@@ -12,7 +12,7 @@ const OurBlog = () => {
             <p>Businesses who partner with us to list their cars on the platform can access up to 1000+ customers daily looking to rent luxury vehicles for their various occasions, they are also able to build and expand their car fleets through the premium rental income generated on the platform.</p>
             <div className='section1-video'>
                 <iframe width="560" height="315" 
-                    src="https://www.youtube.com/embed/VIDEO_ID" 
+                    src="https://www.youtube.com/embed/INRncaJ6Dxc" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

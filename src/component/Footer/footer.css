@@ -1,49 +1,77 @@
-footer {
-  background-color: #0F0F0F;
-  color: #ffffff;
-  padding: 25px 0;
-  border-top: 1px solid #ffffff1a;
-}
-.footer-sub-container {
-  max-width: 1200px;
-  margin: 0 auto;
+footer{
+  background-color: #141333;
   width: 100%;
-  padding: 0 1rem;
 }
-.footer-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.footer-title h4{
-  font-family: 'Inknut Antiqua';
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 92.84px;
-}
-.footer-nav-links ul {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-.footer-nav-links li a {
-  color: #d9dbe1;
-}
-.social-medias ul {
+.footer-logo{
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  margin: 0 auto;
+  border-bottom: 2px solid #EFF5FD;
 }
-
-@media screen and (max-width: 767px){
-  .footer-nav-links{
-    display: none;
-  }
+.footer-logo img{
+  width: 200px;
+  margin: 60px 0;
 }
-
-@media screen and (max-width: 500px){
-  .footer-flex{
-    flex-direction: column;
-  }
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #FFFFFF;
+  font-family: 'poppins', sans-serif;
+}
+.flex{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  color: #FFFFFF;
+}
+.footer-title, li{
+  margin-bottom: 20px;
+}
+.newsletter{
+  background-color: #011621;
+  width: 300px;
+  padding: 15px;
+  border-radius: 8px;
+}
+.newsletter-input{
+  margin-bottom: 20px;
+}
+.mail-field{
+  width: 60%;
+  padding: 10px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #02273A;
+}
+.mail-field::placeholder{
+  color: #616161;
+  font-size: 12px;
+}
+.submit-button{
+  background-color: #000E15;
+  width: 40%;
+  height: 100%;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+}
+.news-hint{
+  font-size: 12px;
+  color: #9c9b9b;
+  letter-spacing: 1px;
 }

@@ -45,4 +45,8 @@
 }
 .mission-overlay:hover .vision{
     visibility: visible;
+    
+}
+.mission-overlay:hover{
+    border-bottom: #EFF5FD 2px solid;
 }
