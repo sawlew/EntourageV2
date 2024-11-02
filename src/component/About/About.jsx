@@ -1,34 +1,23 @@
 import "./about.css";
-import AboutImg from "../../assets/about-img.png";
+import AboutImg from "../../assets/about.jpeg";
 
 const AboutUs = () => {
 
   return (
-    <>
-      <section className="about-main-container" id="about">
-        <div className="about-sub-container">
-          <div className="about-title">
-            <h4 data-aos="fade-left">Your journey starts here with our wheels at your command.</h4>
-          </div>
-          <div className="about-flex">
-            <div data-aos="fade-right" className="about-left">
-              <div className="about-sub-title">
-                <h4>Entourage</h4>
-              </div>
-              <p>
-                ENTOURAGE is a luxury car hire platform employing the use of
-                technology in providing a unique solution to the growing demand
-                for car rentals in Nigeria with more emphasis on comfort, ease
-                of access, convenience and luxury.
-              </p>
-            </div>
-            <div data-aos="fade-up" className="about-right">
-              <img src={AboutImg} alt="" />
-            </div>
+      <div className="about-container">
+        <img src={AboutImg} alt="" />
+        <div className="about-overlay">
+          <div className="about-us">
+            <h1>About Us</h1>
+            <p>
+            ENTOURAGE is an integrated luxury car hiring platform employing the use of technology to provide a unique solution to the growing demand for car rentals in Nigeria with specific emphasis on comfort, ease of access, convenience and luxury. Businesses who partner with us to list their cars on the platform can access up to 1000+ customers daily looking to rent luxury vehicles for their various occasions, they are also able to build and expand their car fleets through the premium rental income generated on the platform.
+            </p>
+            <button>
+              Read More
+            </button>
           </div>
         </div>
-      </section>
-    </>
+      </div>
   );
 };
 

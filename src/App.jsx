@@ -18,6 +18,9 @@ import {
   Rentage,
   OurCoreValues,
   BookNow,
+  OurBlog,
+  Waitlist,
+  Mission,
 } from "./component";
 
 function App() {
@@ -41,8 +44,11 @@ function App() {
       <Rentage />
       <OurCoreValues />
       <BookNow />
+      <OurBlog />
       {/* <HowItWorks /> */}
-      {/* <About /> */}
+      <About />
+      <Waitlist />
+      <Mission />
       {/* <CarCollections displayModal={showModal} /> */}
       
       {/* <Services /> */}

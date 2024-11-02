@@ -13,6 +13,9 @@ import Fleet from "./Fleet of cars/Fleet";
 import Rentage from "./Rentage/Rentage";
 import { OurCoreValues } from "./Core Values/OurCoreValues";
 import BookNow from "./Book Now/BookNow";
+import OurBlog from "./Our Blog/OurBlog";
+import Waitlist from "./Waitlist/Waitlist";
+import Mission from "./Mission and Vision/Mission";
 
 export {
   Header,
@@ -30,4 +33,7 @@ export {
   Rentage,
   OurCoreValues,
   BookNow,
+  OurBlog,
+  Waitlist,
+  Mission,
 };

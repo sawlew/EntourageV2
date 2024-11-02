@@ -5,8 +5,8 @@
 
 .values-container{
     width: 90%;
-    /* border: 2px solid green; */
     margin: 40px auto;
+    margin-bottom: 80px;
 }
 .values-container h1{
     color: #824C9D;
@@ -17,12 +17,10 @@
 .value-detail-container{
     display: flex;
     width: 100%;
-    /* justify-content: space-between; */
 }
 .value-left{
     width: 400px;
     height: 300px;
-    /* border: 5px solid rgb(27, 21, 21); */
     border-radius: 20px;
 }
 .value-left img{
