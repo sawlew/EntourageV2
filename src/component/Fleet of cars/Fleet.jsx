@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Tabs, Tab, Box } from '@mui/material';
 import Luxury from '../Luxury Cars/Luxury';
+import Executive from '../Executive Cars/Executive';
+import Premium from '../Premium Cars/Premium';
 import './fleet.css';
 
 
@@ -28,8 +30,8 @@ export default function Fleet() {
 
                     <Box className="tab-content" >
                         {selectedTab === 0 && <Luxury />}
-                        {selectedTab === 1 && <div>Executive Content</div>}
-                        {selectedTab === 2 && <div>Premium Content</div>}
+                        {selectedTab === 1 && <Executive />}
+                        {selectedTab === 2 && <Premium />}
                     </Box>
             </Box>
         </div>
