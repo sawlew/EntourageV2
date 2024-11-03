@@ -48,13 +48,26 @@ header {
   font-size: 40px;
   cursor: pointer;
   color: #824C9D;
+  /* display: none; */
 }
 .logo {
   width: 200px;
 }
 .hnav {
-  /* border: 2px solid red; */
   width: 33.3%;
+}
+.hnav1{
+  /* border: 2px solid red; */
+  height: 40px;
+  overflow: hidden;
+}
+.menu-wrapper{
+  transform: translateY(-55%);
+  transition: all 0.3s linear;
+}
+.menu-off{
+  transform: translateY(0);
+  transition: all 0.3s linear;
 }
 .hnav2 {
   display: flex;

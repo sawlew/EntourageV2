@@ -5,7 +5,7 @@ import './ourCoreValues.css'
 
 export const OurCoreValues = () => {
   return (
-    <div className='values-main-container'>
+    <div id='service' className='values-main-container'>
         <div className='values-container'>
             <h1>Our Core Values</h1>
             <div className='value-detail-container'>

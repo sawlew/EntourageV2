@@ -23,6 +23,7 @@ footer{
   padding: 20px 0;
   color: #FFFFFF;
   font-family: 'poppins', sans-serif;
+  padding-bottom: 40px;
 }
 .flex{
   display: flex;
@@ -31,7 +32,7 @@ footer{
   gap: 20px;
   color: #FFFFFF;
 }
-.footer-title, li{
+.footer-title,.footer ul li{
   margin-bottom: 20px;
 }
 .newsletter{

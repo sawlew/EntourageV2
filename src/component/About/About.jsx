@@ -4,7 +4,7 @@ import AboutImg from "../../assets/about.jpeg";
 const AboutUs = () => {
 
   return (
-      <div className="about-container">
+      <div id="about" className="about-container">
         <img src={AboutImg} alt="" />
         <div className="about-overlay">
           <div className="about-us">

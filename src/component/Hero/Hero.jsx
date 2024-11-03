@@ -29,7 +29,7 @@ const Hero = () => {
     cssTransition: true,
   };
   return (
-    <div className="upperLevel">
+    <div className="upperLevel" id="home">
       
 
       <Slider ref={sliderRef} {...settings}>

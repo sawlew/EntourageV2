@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 html, body {
-  /* font-family: "Inter Tight", sans-serif; */
   overflow-x: hidden;
   margin: 0 auto;
   scroll-behavior: smooth;
