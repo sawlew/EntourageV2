@@ -46,6 +46,15 @@
     margin-top: 40px;
 }
 
+.tab-content {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+    .tab-content.active {
+    opacity: 1;
+}
 
 
 

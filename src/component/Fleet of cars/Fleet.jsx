@@ -8,9 +8,14 @@ import './fleet.css';
 
 export default function Fleet() {
   const [selectedTab, setSelectedTab] = useState(0);
+  const [isFading, setIsFading] = useState(false);
 
   const handleTabChange = (event, newValue) => {
-    setSelectedTab(newValue);
+      setIsFading(true);
+      setTimeout(() => {
+          setSelectedTab(newValue);
+          setIsFading(false);
+      }, 500); // Match this to CSS transition time
   };
 
   return (
@@ -28,7 +33,7 @@ export default function Fleet() {
                     <Tab label="PREMIUM" disableRipple />
                 </Tabs>
 
-                    <Box className="tab-content" >
+                    <Box className={`tab-content ${!isFading ? 'active' : ''}`} >
                         {selectedTab === 0 && <Luxury />}
                         {selectedTab === 1 && <Executive />}
                         {selectedTab === 2 && <Premium />}

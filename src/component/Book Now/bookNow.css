@@ -16,11 +16,13 @@
     width: 50%;
     height: 200px;
     position: relative;
+    /* border: 2px solid yellow; */
 }
 .bookNow-left img{
     width: 100%;
     position: absolute;
-    top: -190px;
+    top: -70px;
+    /* border: 2px solid red; */
 }
 .bookNow-right{
     color: #FFFFFF;

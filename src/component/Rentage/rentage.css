@@ -8,6 +8,16 @@
     margin: 40px auto;
 }
 
+.rentage-tab-content {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .rentage-tab-content.active {
+    opacity: 1;
+  }
+  
 .rentage-tab{
     text-transform: none !important;
     padding: 25px 20px !important;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './bookNow.css'
-import Porsche from '../../assets/porsche.png'
+import Porsche from '../../assets/porschee.png'
 
 const BookNow = () => {
   return (
