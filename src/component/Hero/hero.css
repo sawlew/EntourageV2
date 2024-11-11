@@ -9,7 +9,6 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  /* max-height: 800px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -184,11 +183,11 @@ select:focus {
 }
 
 .left-button{
-  left: -2%;
+  left: -30px;
 }
 
 .right-button{
-  right: -2%;
+  right: -30px;
 }
 
 .hero-overlay{
